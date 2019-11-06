@@ -8,7 +8,7 @@ namespace Nominas.UI
         public static void Main(string[] args)
         {
             Empleado d = new Directivo("Donald");
-            Empleado o = new Obrero("El pato");
+            Empleado o = new Obrero("Pepo");
 
             Console.Out.WriteLine(d.ToString(10));
             //Console.Out.WriteLine("Nomina: " + d.CalcularNomina(10));
