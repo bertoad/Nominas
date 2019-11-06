@@ -8,6 +8,7 @@ namespace Nominas.UI
         public static void Main(string[] args)
         {
             Empleado d = new Directivo("Donald");
+	    Empleado d = new Directivo("Daisy");
             Empleado o = new Obrero("Pepo");
 	    Empleado o2 = new Obrero("Obrero");
             Console.Out.WriteLine(d.ToString(10));
